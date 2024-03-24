@@ -27,14 +27,22 @@ console.log('last item',arr2[arr2.length-1]);
   let clothes = ["shelter", "clothing", "food", "education"];
   let material = clothes.includes("food");
   if(material==true){
-      console.log("food")
+      material = true
   }
   else{
-  console.log("the search word was not found")
-  } 
+   material = "the search word was not found"  } 
 
-  let c="renw"
-  console.log(sort,word.sort());
+  let word="renniw"
+function renew(word){
+    var java="";
+for (var javascript=word.length-1; javascript>=0;javascript--){
+    java += word[javascript]
+}
+return java
+}
+console.log(renew(word));
+
+  
   
  
  
